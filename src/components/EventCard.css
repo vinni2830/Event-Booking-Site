@@ -1,0 +1,56 @@
+.event-card {
+    display: flex;
+    align-items: flex-start; /* Align items at the start for vertical layout */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1em;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s, transform 0.3s;
+    width: 100%; /* Make card full width */
+    max-width: 600px; /* Set a max width for the card */
+    margin: 1em auto; /* Center the card and add vertical spacing */
+    position: relative; /* For positioning the overlay */
+    overflow: hidden; /* Prevents overflow */
+}
+
+.event-card img {
+    width: 100px; /* Fixed width for the image */
+    height: 250px; /* Increased height for vertical images */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    border-radius: 8px; /* Rounded corners for image */
+    margin-right: 1em; /* Space between image and text */
+    transition: transform 0.3s; /* Smooth zoom effect */
+    margin-top:3em;
+}
+
+.event-card:hover img {
+    transform: scale(1.05); /* Slightly zoom image on hover */
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column; /* Stack details vertically */
+}
+
+.event-details h3 {
+    margin: 0.5em 0;
+    font-size: 1.5em; /* Increase font size for the title */
+}
+
+.event-details p {
+    margin: 0.2em 0;
+    color: #333; /* Darker text for better readability */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column; /* Stack image and text on smaller screens */
+        align-items: center; /* Center align text under image */
+    }
+
+    .event-card img {
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 1em; /* Add space below the image */
+    }
+}

@@ -1,0 +1,122 @@
+/* Home.css */
+.home {
+    padding: 2em;
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1s forwards; /* Fade in effect */
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Soft gradient background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
+
+.home h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #007bff; /* Primary color for headings */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 1px; /* Spacing between letters */
+}
+
+.home p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #333; /* Darker text for better readability */
+}
+
+.event-list {
+    display: flex;
+    flex-direction: column; /* Keep events in a column layout */
+    align-items: center;    /* Center align the event cards */
+    gap: 1em;              /* Space between event cards */
+}
+
+.testimonials {
+    margin-top: 2em;
+    font-style: italic;
+    color: #555; /* Subtle color for testimonials */
+}
+
+.testimonials blockquote {
+    font-size: 1.5em; /* Increased font size for emphasis */
+    margin: 0.5em 0;
+    border-left: 4px solid #007bff; /* Add a colored left border */
+    padding-left: 1em;
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background for blockquote */
+    border-radius: 5px; /* Rounded corners for blockquote */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.testimonials blockquote:hover {
+    background-color: rgba(0, 123, 255, 0.2); /* Darker background on hover */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;           /* Remove padding */
+}
+
+ul li {
+    margin: 0.5em 0;      /* Space between list items */
+    font-size: 1.1em;     /* Slightly larger text for list items */
+}
+
+.newsletter-signup {
+    background-color: #e9ecef; /* Light background for newsletter section */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 2em; /* Space above newsletter section */
+}
+
+.newsletter-signup h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #007bff; /* Consistent heading color */
+}
+
+.newsletter-signup p {
+    margin-bottom: 20px;
+    color: #333; /* Darker text for readability */
+}
+
+.newsletter-signup form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-signup input {
+    padding: 10px;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: border-color 0.3s; /* Smooth transition for input border */
+}
+
+.newsletter-signup input:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove outline */
+}
+
+.newsletter-signup button {
+    padding: 10px 15px;
+    background-color: #4A90E2; /* Primary button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for button */
+}
+
+.newsletter-signup button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+

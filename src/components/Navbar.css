@@ -1,0 +1,40 @@
+body .navbar {
+    background-color: #3e8ce6 !important;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center vertically */
+}
+
+.logo {
+    font-size: 1.8rem; /* Larger font size for the logo */
+    color: white; /* White text for contrast */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font for the logo */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for the links */
+}
+
+.nav-links li {
+    margin-left: 2rem; /* Space between links */
+}
+
+.nav-links a {
+    color: rgb(42, 39, 210); /* White text for the links */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.1rem; /* Slightly larger font size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover */
+}
+
+.nav-links a:hover {
+    color: #FFD700; /* Change color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}

@@ -1,0 +1,48 @@
+.events {
+    text-align: center;
+    padding: 2em;
+}
+
+.event-list {
+    display: flex;              /* Use flexbox to arrange event cards */
+    flex-direction: column;     /* Arrange event cards in a column (one per row) */
+    align-items: center;        /* Center the event cards horizontally */
+    gap: 1em;                  /* Space between the event cards */
+}
+
+.event-card {
+    width: 100%;                /* Make each card take full width */
+    max-width: 600px;          /* Optional: Set a max-width for better readability */
+    padding: 1em;              /* Add padding for a better layout */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better aesthetics */
+    border-radius: 8px;        /* Rounded corners */
+}
+
+.events {
+    padding: 2rem; /* Add some padding around the events section */
+}
+
+.header-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Space between header and search bar */
+    align-items: center; /* Center align items vertically */
+}
+
+.event-list {
+    margin-top: 2rem; /* Space between header and event list */
+}
+
+/* Optional: Adjust search bar size if needed */
+.search-bar {
+    flex: 0 0 auto; /* Allow search bar to take up necessary space */
+}
+
+.search-input {
+    width: 250px; /* Match this to your design preference */
+}
+
+/* Adjust the width of the search button if necessary */
+.search-button {
+    width: 80px; /* Set fixed width for consistency */
+}
+

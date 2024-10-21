@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Event-Booking-Site/static/css/main.4687e842.css",
+    "main.js": "/Event-Booking-Site/static/js/main.e759acfc.js",
+    "index.html": "/Event-Booking-Site/index.html",
+    "main.4687e842.css.map": "/Event-Booking-Site/static/css/main.4687e842.css.map",
+    "main.e759acfc.js.map": "/Event-Booking-Site/static/js/main.e759acfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4687e842.css",
+    "static/js/main.e759acfc.js"
+  ]
+}
